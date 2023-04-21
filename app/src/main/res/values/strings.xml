@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ex1</string>
+    <string-array name="tech">
+        <item>Android</item>
+        <item>IOS</item>
+        <item>PHP</item>
+        <item>JAVA</item>
+        <item>C/C++</item>
+    </string-array>
+</resources>

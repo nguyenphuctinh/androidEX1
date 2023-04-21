@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="171dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ip"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: 1000$"
+        app:layout_constraintLeft_toRightOf="@id/iv1"
+        app:layout_constraintTop_toTopOf="@id/iv1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/tv1"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="iPhone 14 Pro Max. Bắt trọn chi tiết ấn tượng với Camera Chính 48MP. Trải nghiệm iPhone theo cách hoàn toàn mới với Dynamic Island và màn hình Luôn Bật. Công nghệ an toàn quan trọng – Phát Hiện Va Chạm1 thay bạn gọi trợ giúp khi cần kíp."
+        app:layout_constraintLeft_toRightOf="@id/iv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="HOME"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/iv1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:backgroundTint="#aaaaaa"
+        android:id="@+id/btn01"
+        
+
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="BUY NOW"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/btn01"
+        app:layout_constraintLeft_toRightOf="@id/btn01"
+        android:backgroundTint="#aaaaaa"
+        android:id="@+id/btn02"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="HOME"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/btn01"
+        app:layout_constraintLeft_toRightOf="@id/btn02"
+        android:backgroundTint="#aaaaaa"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
